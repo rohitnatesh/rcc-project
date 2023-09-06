@@ -12,6 +12,7 @@ faculty_data = pd.read_csv(f"{CURRENT_DIRECTORY}{FACULTY_SUBPATH}")
 # Finding the sum of awarded total, group by the title and PI name.
 grouped_awards_data = (
     awards_data[["Award Title", "PI Name", "Awarded Total"]]
+    # If grouping needs to be done only by professor name, remove the "Award Title".
     .groupby(["Award Title", "PI Name"], as_index=False)["Awarded Total"]
     .sum()
 )
