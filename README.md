@@ -18,8 +18,8 @@
 - If professor names do not match in the CSVs, the data will not be matched properly.
 - Example from the data files -
     * Notice the `PI Name` in the awards CSV file, ie., `Price,Franklin D`,
-    ![Name mismatch in awards data](./screenshots/name%20mismatch%20award%20details.png)
+    ![Name mismatch in awards data](./screenshots/name_mismatch_award_details.png)
     * Notice the `first_name` In the professor CSV file, the first name is only `Franklin` and the `D` is left out,
-    ![Name mismatch in awards data](./screenshots/name%20mismatch%20award%20details.png)
+    ![Name mismatch in awards data](./screenshots/name_mismatch_award_details.png)
     * As there is a mismatch in names, these records are not mapped together,
-    ![Name mismatch in awards data](./screenshots/name%20mismatch%20results.png)
+    ![Name mismatch in awards data](./screenshots/name_mismatch_results.png)
